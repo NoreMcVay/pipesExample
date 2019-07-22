@@ -50,7 +50,7 @@ export class AppComponent {
   }
   onAddServer() {
     this.servers.push({
-      instanceType: 'extra large',
+      instanceType: 'large',
       name: 'Nores Server',
       status: 'stable',
       started: new Date(15, 1, 2017)
